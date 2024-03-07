@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  @apply text-[#f5f5f4] text-base font-poppins bg-[#121212] min-h-[100vh] pb-5;
+}

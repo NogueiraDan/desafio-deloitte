@@ -1,0 +1,10 @@
+- [X] Listagem dos dados vindos da API
+- [X] Criação do componente de Card
+- [X] Implementação do scroll infinito
+- [X] Criação da rota do Post
+- [X] Criação do estado de favorito no Vuex
+- [X] Favoritar no localstorage a partir do componente Card
+- [X] Alternar o label do componente Card
+- [X] Criação de custom hook para lidar com as requisições
+- [X] Criação de uma página para mostrar os favoritos
+- [X] Favoritar a partir da página de detalhes
