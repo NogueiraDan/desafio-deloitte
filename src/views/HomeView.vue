@@ -24,7 +24,7 @@ onUnmounted(() => {
 <template>
   <main class="flex flex-col items-center pt-3 w-auto">
     <header>
-      <h1 class="text-3xl font-bold mb-5">Infinite Scroll - Deloitte</h1>
+      <h1 class="text-center text-3xl font-bold mb-5">Infinite Scroll - Deloitte</h1>
     </header>
     <div v-if="loading" class="text-xl font-bold my-5" aria-live="polite">Carregando Posts...</div>
     <div v-if="error" class="text-xl font-bold my-5" aria-live="assertive">
