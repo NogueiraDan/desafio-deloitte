@@ -1,12 +1,8 @@
+import type { Post } from '@/@types';
 import { ref } from 'vue';
 
 export default function usePosts(page: number = 1) {
-  interface Post {
-    title: string;
-    id: number;
-    body: string;
-  }
-
+  
   const posts = ref<Post[]>([]);
   const loading = ref<boolean>(true);
   const error = ref<boolean>(false);

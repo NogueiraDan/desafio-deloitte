@@ -1,18 +1,13 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import Card from '@/components/Card.vue';
+import type { Post } from '@/@types';
 
-interface Post {
-  title: string;
-  id: number;
-  body: string;
-}
 
 const favorites = ref<Post[]>([]);
 
 onMounted(() => {
   const existingFavorites = JSON.parse(localStorage.getItem('favoritedCards') || '[]');
-  console.log(existingFavorites);
   favorites.value = existingFavorites;
 });
 </script>

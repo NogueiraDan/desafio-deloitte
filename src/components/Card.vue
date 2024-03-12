@@ -31,7 +31,6 @@ function toogleFavorite() {
     listItem: props.listItem
   };
 
-  console.log('cardData by props in Card.vue', cardData);
   if (isFavorited(cardData.id)) {
     store.dispatch('favorites/removeFavoriteCard', cardData.id);
   } else {

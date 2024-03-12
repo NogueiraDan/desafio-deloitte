@@ -8,7 +8,6 @@ const { error, fetchPosts, loading, posts } = usePosts();
 const handleScroll = () => {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     fetchPosts();
-    console.log('Refetching posts...');
   }
 };
 window.addEventListener('scroll', handleScroll);
