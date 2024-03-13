@@ -19,10 +19,10 @@ npm run dev
 ```
 
 ## 📱​ Telas do projeto
-![Tela Inicial](./assets/deloitte-application.png)
+![Tela Inicial](./src/assets/deloitte-application.png)
 
 ## 🌐​ Link do Deploy
-[Produção](https://deloitte-test-application.netlify.app/)
+[Link de Produção  - Aplicação no ar](https://deloitte-test-application.netlify.app/)
 
 ## ✒️ Autor
 
